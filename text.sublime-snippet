@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+(new MAF.element.Text({
+    styles: {
+      fontSize: ${1:fontSize},
+      color: ${2:textColor},
+      truncation: "end",
+      vOffset: 0,
+      hOffset: 0,
+      height: ${3:height},
+      fontWeight: 700,
+      width: "100%"
+    }
+  }))
+]]></content>
+	<tabTrigger>maftext</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+Theme.set({
+	"${1:rule}": {
+		styles: {
+			${2:styles}
+		}
+	}
+});
+]]></content>
+	<tabTrigger>mafthemeset</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

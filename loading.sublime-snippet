@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MAF.utility.WaitIndicator.up();
+]]></content>
+	<tabTrigger>mafloading</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

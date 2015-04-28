@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$_("${1:localizationKey}")
+]]></content>
+	<tabTrigger>maflocal</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

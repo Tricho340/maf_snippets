@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+  new MAF.element.Grid({
+    rows: ${1:numberOfRows},
+    columns: ${2:numberOfColumns},
+    orientation: "horizontal",
+    carousel: false,
+    ClassName: ${3:className},
+    cellCreator: function () {
+      var cell = new MAF.element.GridCell({
+        styles: this.getCellDimensions(),
+        events: {
+          onFocus: function () {
+          	${4:}
+          },
+          onBlur: function () {
+          	${5:}
+          },
+          onSelect: function () {
+          	// cell.getCellDataIndex() / cell.getCellDataItem()
+          	${6:}
+          }
+        }
+      });
+
+      return cell;
+    },
+    cellUpdater: function (cell, data) {
+      ${7:}
+    },
+    styles: {
+      width: "100%",
+      height: ${8:gridHeight}
+    }
+  })
+]]></content>
+
+
+	<tabTrigger>mafhgrid</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

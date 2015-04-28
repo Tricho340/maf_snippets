@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+    new MAF.Request({
+      url: ${1:requestUrl},
+      method: "GET",
+      proxy: true,
+      onSuccess: function (json) {
+      	${2:}
+      },
+      onError: function () {
+      	${3:}
+      },
+      onFailure: function () {
+		    ${4:}
+      }
+    }).send();
+]]></content>
+	<tabTrigger>mafrequest</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

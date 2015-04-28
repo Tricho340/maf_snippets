@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+	${1:functionName}.unsubscribeFrom(${2:subject}, ["${3:eventId}"]);
+]]></content>
+	<tabTrigger>mafunsubscribe</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

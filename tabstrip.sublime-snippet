@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+new MAF.control.TabStrip({
+  theme: false,
+  defaultTab: ${0:defaultTabIndex},
+  styles: {
+    borderBottom: "2px solid white",
+    vOffset: 0,
+    hOffset: -1,
+    width: ${1:tabStripWidth},
+    height: ${2:tabStripHeight},
+    fontSize: 23
+  },
+  events: {
+    onTabSelect: function (event) {
+      // var selectedOptionLabel = (event.payload.label);
+      ${3:}
+    }
+  }
+})
+]]></content>
+	<tabTrigger>maftabs</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

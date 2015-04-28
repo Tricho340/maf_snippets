@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+      new MAF.control.TextButton({
+        label: ${1:buttonLabel},
+        events: {
+          onFocus: function () {
+          	${2:}
+          },
+          onBlur: function () {
+          	${3:}
+          },
+          onSelect: function (event) {
+			      ${4:}
+          }
+        },
+        styles: {
+        	width: ${5:buttonWidth},
+        	height: ${6:buttonHeight}
+        }
+      });
+			
+]]></content>
+	<tabTrigger>maftextbtn</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

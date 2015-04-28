@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+MAF.utility.WaitIndicator.down();
+]]></content>
+	<tabTrigger>mafloaded</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

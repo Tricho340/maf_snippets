@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+(new MAF.element.Image({
+    aspect: "crop",
+    hideWhileLoading: true,
+    missingSrc: ${1:backupImageSrc},
+    styles: {
+      vOffset: 0,
+      hOffset: 0,
+      width: ${2:imageWidth}
+    }
+}))
+
+
+]]></content>
+	<tabTrigger>mafimg</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
