@@ -1,11 +1,11 @@
 # maf_snippets
 
-A collection of Metrological Application Framework snippets for SublimeText 2
+A collection of Metrological Application Framework snippets for SublimeText
 
 # How To Use
 - clone this repository in your SublimeText User folder whose location varies depending on your OS:
-  - Mac OS: ~/Library/Application Support/Sublime Text 2/Packages/User
-  - Windows: User\AppData\Roaming\Sublime Text 2\Packages\User
+  - Mac OS: ~/Library/Application Support/Sublime Text 2 or 3/Packages/User
+  - Windows: User\AppData\Roaming\Sublime Text 2 or 3\Packages\User
 - enter one of the snippets below anywhere in your .js file, press the Tab key on your keyboard and be efficient!
 
 # Available snippets
