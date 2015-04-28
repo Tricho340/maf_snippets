@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+new MAF.element.Container({
+                    styles: {
+                      width: "100%",
+                      height: "100%"
+                    }
+                  })
+]]></content>
+	<tabTrigger>mafcontainer</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

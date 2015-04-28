@@ -13,3 +13,4 @@ A collection of Metrological Application Framework snippets for SublimeText 2
 - mafloading - shorthand for MAF.utility.WaitIndicator.up()
 - mafloaded - shorthand for MAF.utility.WaitIndicator.down()
 - mafimg - creates MAF.element.Image
+- mafcontainer - creates MAF.element.Container
