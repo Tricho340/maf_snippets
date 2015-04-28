@@ -4,9 +4,9 @@ A collection of Metrological Application Framework snippets for SublimeText 2
 
 # How To Use
 - clone this repository in your SublimeText User folder whose location varies depending on your OS:
-  Mac OS: ~/Library/Application Support/Sublime Text 2/Packages/User
-  Windows: User\AppData\Roaming\Sublime Text 2\Packages\User
-- enter one of the character sequences below and press the Tab key on your keyboard and voila!
+  - Mac OS: ~/Library/Application Support/Sublime Text 2/Packages/User
+  - Windows: User\AppData\Roaming\Sublime Text 2\Packages\User
+- enter one of the snippets below anywhere in your .js file, press the Tab key on your keyboard and be efficient!
 
 # Available snippets
 - mafhgrid - creates horizontal MAF.element.Grid instance
