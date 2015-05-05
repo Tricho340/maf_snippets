@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.log("${1:}", ${2:});
+]]></content>
+	<tabTrigger>clv</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for the console.log declaration with placeholder for outputting variable's value</description>
+</snippet>

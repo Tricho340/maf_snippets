@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+styles: {
+	${1:}
+}
+]]></content>
+	<tabTrigger>mafst</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for styles: { } clause used primarily in MAF Themes</description>
+</snippet>

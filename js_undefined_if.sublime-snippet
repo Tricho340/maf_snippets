@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if (typeof ${1:} !== "undefined") {
+	${2:}
+}
+]]></content>
+	<tabTrigger>unif</tabTrigger>
+	<scope>source.js</scope>
+	<description>Creates if block that check whether type of specific variable is undefined</description>
+</snippet>

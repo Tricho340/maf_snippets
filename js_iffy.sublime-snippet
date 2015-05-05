@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(function ${1:iffyName}() {
+	${2:}
+})();
+]]></content>
+	<tabTrigger>iffy</tabTrigger>
+	<scope>source.js</scope>
+	<description>Creates immediately-invoked function expression (IFFY) in JavaScript</description>
+</snippet>

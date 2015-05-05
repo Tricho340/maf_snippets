@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+vOffset: ${1:},
+]]></content>
+	<tabTrigger>mafvo</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for vOffset property</description>
+</snippet>

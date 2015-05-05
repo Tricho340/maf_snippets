@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+"${1:}": {
+    styles: {
+   		${2:}
+    }
+},
+]]></content>
+	<tabTrigger>mafstyle</tabTrigger>
+	<scope>source.js</scope>
+	<description>shorthand for new style for MAF Themes</description>
+</snippet>

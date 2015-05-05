@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+hOffset: ${1:},
+]]></content>
+	<tabTrigger>mafho</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for hOffset property</description>
+</snippet>

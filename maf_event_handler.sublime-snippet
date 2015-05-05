@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:}: function (event) {
+	${2:}
+},
+]]></content>
+	<tabTrigger>mafevh</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for empty EVent Handler function with single event argument</description>
+</snippet>
