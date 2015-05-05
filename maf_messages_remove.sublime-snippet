@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+MAF.messages.remove("${1:}");
+]]></content>
+	<tabTrigger>mafmesrem</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for MAF.messages.remove</description>
+</snippet>

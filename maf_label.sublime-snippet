@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+label: \$_("${1:}"),
+]]></content>
+	<tabTrigger>maflbl</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for the label property (with localization-friendly value)</description>
+</snippet>

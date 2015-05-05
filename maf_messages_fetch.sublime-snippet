@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+MAF.messages.fetch("${1:}");
+]]></content>
+	<tabTrigger>mafmesfet</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for MAF.messages.fetch</description>
+</snippet>

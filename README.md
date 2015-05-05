@@ -31,6 +31,10 @@ MAF-specific snippets:
 - mafcn - shorthand for the ClassName property
 - mafvo - shorthand for vOffset property
 - mafho - shorthand for hOffset property
+- maflbl - shorthand for the label property (with localization-friendly value)
+- mafmesfet - shorthand for MAF.messages.fetch(key_to_fetch)
+- mafmessto - shorthand for MAF.messages.store(key_to_store, value)
+- mafmesrem - shorthand for MAF.messages.remove(key_to_remove)
 
 Generic JS snippets:
 - iffy - creates Immediately-Invoked Function Expression (IFFY)

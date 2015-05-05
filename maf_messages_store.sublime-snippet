@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+MAF.messages.store("${1:}", ${2:});
+]]></content>
+	<tabTrigger>mafmessto</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for MAF.messages.store</description>
+</snippet>
