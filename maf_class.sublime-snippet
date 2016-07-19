@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+  new MAF.Class({
+    Extends: MAF.element.Container
+    Protected: {
+      
+    },
+    initialize: function (config) {
+      this.parent();
+    },
+    suicide: function () {
+      this.parent();
+    }
+  })
+]]></content>
+
+
+  <tabTrigger>mafclass</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
