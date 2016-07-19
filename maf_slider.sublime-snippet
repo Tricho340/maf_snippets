@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-  new MAF.element.SliderCarousel({
+  new MAF.element.SlideCarousel({
     subCells: ${1:numberOfSubcells},
     focusIndex: 0,
     visibleCells: ${2:numberOfVisibleCells},
