@@ -36,6 +36,8 @@ MAF-specific snippets:
 - mafmessto - shorthand for MAF.messages.store(key_to_store, value)
 - mafmesrem - shorthand for MAF.messages.remove(key_to_remove)
 - mafslider - shorthand for MAF.SliderCarousel
+- mafview - shorthand for empty view
+- mafapi - shorthand for empty API class
 
 Generic JS snippets:
 - iffy - creates Immediately-Invoked Function Expression (IFFY)

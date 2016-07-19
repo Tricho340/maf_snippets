@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+var ${1:} = new MAF.Class({
+  Extends: MAF.system.FullscreenView,
+
+  ClassName: "${1:}",
+
+  viewBackParams: {
+    reset: false
+  },
+
+  createView: function () {
+  },
+
+  updateView: function () {
+  }
+});
+]]></content>
+	<tabTrigger>mafview</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for new view</description>
+</snippet>

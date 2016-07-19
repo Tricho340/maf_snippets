@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+(new MAF.element.TextGrid({
+  styles: {
+    color: ${1:},
+    vOffset: 0,
+    hOffset: 0,
+    wrap: true,
+    width: ${2:},
+    anchorStyle: "left"
+  },
+  visibleLines: ${3:}
+}))
+]]></content>
+	<tabTrigger>maftg</tabTrigger>
+	<scope>source.js</scope>
+  <description>Creates MAF.element.TextGrid instance</description>
+</snippet>

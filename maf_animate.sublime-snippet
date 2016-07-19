@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1:}.animate({
+	duration: ${2:},
+	${3:}: ${4:}
+})
+]]></content>
+	<tabTrigger>mafanimate</tabTrigger>
+	<scope>source.js</scope>
+	<description>Shorthand for the animate clause</description>
+</snippet>

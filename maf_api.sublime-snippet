@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+var API = {
+  ${1:}:function () {
+
+  }
+};
+]]></content>
+
+
+  <tabTrigger>mafapi</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

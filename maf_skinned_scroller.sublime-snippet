@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+(new MAF.control.ScrollIndicator({
+  theme: true,
+  styles: {
+    width: 23,
+    height: ${1:},
+    vOffset: 0,
+    right: 50,
+    hAlign: "right"
+  },
+  events:{
+    onFocus: function (event) {
+      Theme.set({
+        "${2:} .ControlScrollIndicatorScroll": {
+          styles: {
+            backgroundColor: "${3:} !important"
+          }
+        }
+      });
+      event.preventDefault();
+    },
+    onBlur: function () {
+      Theme.set({
+        "${2:} .ControlScrollIndicatorScroll": {
+          styles: {
+            backgroundColor: "${4:} !important"
+          }
+        }
+      });
+    }
+  },
+  ClassName: "${2:}"
+}))
+]]></content>
+	<tabTrigger>mafskinscroll</tabTrigger>
+	<scope>source.js</scope>
+	<description>Creates skinned MAF.control.ScrollIndicator instance</description>
+</snippet>
