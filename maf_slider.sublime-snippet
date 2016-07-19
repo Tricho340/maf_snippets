@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+	var slider = MAF.element.SlideCarousel({
+        ClassName: ${1:className},
+        subCells: ${2:numberOfSubcells},
+        focusIndex: 0,
+        visibleCells: ${3:numberOfVisibleCells},
+        focus: false,
+        carousel: false,
+        orientation: "horizontal",
+        dynamicFocus: true,
+        slideDuration: 0.3,
+        cellCreator: function () {
+          var cell = new MAF.element.SlideCarouselCell({
+            styles: (this.getCellDimensions(), { transform: "translateZ(0)" }),
+            events: {
+              onFocus: function () {
+              	${4:}
+              },
+              onBlur: function () {
+              	${5:}
+              },
+              onSelect: function () {
+              	${6:}
+              }
+            }
+          });
+
+          return cell;
+        },
+        cellUpdater: function (cell, data) {
+        	// cell.getCellDataItem()
+        	${7:}
+        }
+    }).appendTo(this);
+]]></content>
+
+
+	<tabTrigger>mafslider</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

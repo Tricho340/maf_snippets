@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-(new MAF.element.Image({
+new MAF.element.Image({
     aspect: "crop",
     hideWhileLoading: true,
     missingSrc: ${1:},
@@ -9,7 +9,7 @@
       hOffset: 0,
       width: ${2:}
     }
-}))
+})
 
 
 ]]></content>
