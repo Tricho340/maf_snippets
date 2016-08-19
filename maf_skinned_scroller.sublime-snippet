@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-(new MAF.control.ScrollIndicator({
+new MAF.control.ScrollIndicator({
   theme: true,
   styles: {
     width: 23,
@@ -31,7 +31,7 @@
     }
   },
   ClassName: "${2:}"
-}))
+})
 ]]></content>
 	<tabTrigger>mafskinscroll</tabTrigger>
 	<scope>source.js</scope>

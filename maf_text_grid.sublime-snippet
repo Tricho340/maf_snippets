@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-(new MAF.element.TextGrid({
+new MAF.element.TextGrid({
   styles: {
     color: ${1:},
     vOffset: 0,
@@ -10,7 +10,7 @@
     anchorStyle: "left"
   },
   visibleLines: ${3:}
-}))
+})
 ]]></content>
 	<tabTrigger>maftg</tabTrigger>
 	<scope>source.js</scope>
